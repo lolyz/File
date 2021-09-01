@@ -96,10 +96,6 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     text = "<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
     message_text = message.text
-    except:
-                pass
-       
-    else:
     reply_markup = InlineKeyboardMarkup(
         [
             [
